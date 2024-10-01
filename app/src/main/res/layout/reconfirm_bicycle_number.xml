@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="470dp"
+    android:layout_gravity="center"
+    android:background="@drawable/rounded_corners">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="Re-Confirm \nBicycle Number"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        android:textColor="@color/btn_color" />
+
+    <TextView
+        android:id="@+id/reconfirm_bicycle_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="PR0001"
+        android:textSize="22dp"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="Note :-"
+            android:textSize="18dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="• Check on the back side of the bicycle to find it's number."
+            android:textSize="16dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="• Your Selected Bicycle will get Unlocked and Your Ride will also Start when you click the below button."
+            android:textSize="16dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="• Give all the required permissions."
+            android:textSize="16dp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/submit_button_layout"
+        layout="@layout/button_with_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cancel_ride_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:paddingVertical="10dp"
+        android:backgroundTint="@color/dark_red"
+        android:textAllCaps="false"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Cancel Ride"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        app:cornerRadius="20dp"
+        android:paddingHorizontal="20dp"
+        android:clickable="true"/>
+
+</LinearLayout>

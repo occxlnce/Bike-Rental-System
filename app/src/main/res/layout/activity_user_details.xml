@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".UserDetailsActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="870dp"
+        android:layout_marginTop="-30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gradientbg" />
+
+    <ImageView
+        android:id="@+id/bicyclelogo"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bicycle" />
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="60dp"
+        android:background="#00000000"
+        android:fontFamily="@font/inter_bold"
+        android:letterSpacing="0"
+        android:text="Banditz Ride"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bicyclelogo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/heading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#00000000"
+        android:fontFamily="@font/inter_bold"
+        android:letterSpacing="0"
+        android:text="User Details"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/submitBtn"
+        tools:layout_editor_absoluteX="50dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="5dp"
+            android:text="Enter Your Name"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/nameET"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Your Name"
+            android:inputType="text"
+            android:paddingStart="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="5dp"
+            android:text="Enter Mobile Number"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/phoneNumberET"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/edit_text_bg"
+            android:ems="10"
+            android:hint="9820468235"
+            android:inputType="number"
+            android:maxLength="10"
+            android:digits="0123456789"
+            android:paddingStart="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="5dp"
+            android:text="Enter Birth Date"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/dateTV"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="15dp"
+            android:paddingVertical="10dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint="DD/MM/YY"
+            android:textSize="16sp"
+            android:paddingStart="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="#808080"
+            android:focusable="false"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginBottom="180dp"
+        android:backgroundTint="@color/btn_color"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

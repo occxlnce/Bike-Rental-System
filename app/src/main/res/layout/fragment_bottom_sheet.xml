@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/bottom_sheet"
+    android:background="@drawable/rounded_bottom_sheet"
+    tools:context=".BottomSheetFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/scan_qr"
+            android:layout_width="170dp"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="@color/inactive">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/baseline_qr_code_scanner_24"
+                app:tint="@color/active2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="70dp"
+                android:text="Scan QR Code"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/active2" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/enter_bicycle_number"
+            android:layout_width="170dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="10dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="@color/inactive">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/baseline_123_24"
+                android:scaleType="centerCrop"
+                android:background="@drawable/rounded_corners"
+                app:tint="@color/active2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginStart="78dp"
+                android:text="Enter"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/active2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="42dp"
+                android:text="Bicycle Number"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/active2" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/choose_bicycle"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="@color/inactive">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:text="Choose Bicycle Options"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/active2" />
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="140dp"
+                android:layout_height="95dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="75dp"
+                app:cardCornerRadius="15dp"
+                android:elevation="0dp"
+                app:cardElevation="0dp"
+                android:backgroundTint="#fff"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="-10dp"
+                        android:background="@drawable/bicycle" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Geared"
+                            android:textSize="10dp"
+                            android:textColor="@color/btn_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Non-Geared"
+                            android:textSize="10dp"
+                            android:textColor="@color/btn_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="MTB"
+                            android:textSize="10dp"
+                            android:textColor="@color/btn_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Electric"
+                            android:textSize="10dp"
+                            android:textColor="@color/btn_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cargo"
+                            android:textSize="10dp"
+                            android:textColor="@color/btn_color" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

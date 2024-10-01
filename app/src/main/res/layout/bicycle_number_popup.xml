@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:background="@drawable/rounded_corners">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Enter Bicycle Number"
+        android:textSize="20sp"
+        android:textColor="@color/active2"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/bicycle_number"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text_bg"
+        android:inputType="number"
+        android:maxLength="4"
+        android:focusable="true"
+        android:focusedByDefault="true"
+        android:clickable="true"
+        android:textColor="@color/black"
+        android:hint="1234"
+        android:textColorHint="@color/inactive" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/active2"
+        android:textAllCaps="false"
+        android:text="Submit"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:cornerRadius="18dp"
+        android:paddingHorizontal="20dp"
+        android:clickable="true"/>
+
+</LinearLayout>
