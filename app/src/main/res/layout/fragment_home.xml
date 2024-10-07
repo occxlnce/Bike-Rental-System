@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <fragment
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        map:uiZoomControls="true"
+        map:uiRotateGestures="true"
+        map:uiCompass="true"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/ongoing_ride_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:visibility="gone">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginHorizontal="1dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="20dp"
+            app:strokeColor="@color/active2"
+            app:strokeWidth="1.5dp">
+
+            <ImageView
+                android:id="@+id/bicycle_img"
+                android:layout_width="60dp"
+                android:layout_height="47dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="38dp"
+                android:visibility="visible"
+                android:elevation="5dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pedalcity_eco" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="85dp"
+                android:layout_marginTop="38dp"
+                android:fontFamily="@font/inter_bold"
+                android:letterSpacing="0.02"
+                android:text="Ongoing Ride"
+                android:textAllCaps="true"
+                android:textColor="@color/btn_color"
+                android:textSize="18dp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="85dp"
+                android:layout_marginTop="63dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_medium"
+                    android:text="Rental ID : "
+                    android:textColor="@color/light_grey"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/rental_id_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_semibold"
+                    android:letterSpacing="0.03"
+                    android:text="889786"
+                    android:textColor="@color/active2"
+                    android:textSize="14dp"
+                    tools:ignore="DuplicateIds"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="90dp"
+                android:alpha="0.4"
+                android:background="@color/btn_color" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="135dp"
+                android:layout_marginTop="100dp"
+                android:alpha="0.4"
+                android:background="@color/btn_color" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="235dp"
+                android:layout_marginTop="100dp"
+                android:alpha="0.4"
+                android:background="@color/btn_color" />
+
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="95dp"
+                android:orientation="vertical">
+
+                <Chronometer
+                    android:id="@+id/duration_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:format="00:00:00"
+                    android:fontFamily="@font/inter_semibold"
+                    android:textColor="@color/active2"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/inter_medium"
+                    android:text="Duration"
+                    android:textColor="@color/light_grey"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="95dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/amount_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="₹05"
+                    android:textColor="@color/active2"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/inter_medium"
+                    android:text="Amount"
+                    android:textColor="@color/light_grey"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="250dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/headlight_btn"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/button_radius"
+                    android:backgroundTint="#BE00C4FF"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/headlight_icon"
+                    app:tint="@color/white"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/inter_medium"
+                    android:text="Bicycle\nHeadlight"
+                    android:textSize="14dp"
+                    android:textColor="@color/light_grey" />
+
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/end_ride_btn"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/inter_bold"
+                android:text="End Ride"
+                android:textAllCaps="true"
+                android:textSize="18dp"
+                android:textColor="@color/dark_red"
+                android:backgroundTint="@color/white"
+                app:elevation="50dp"
+                app:cornerRadius="20dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/dark_red"/>
+
+            <LinearLayout
+                android:id="@+id/all_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="12dp"
+                android:layout_marginEnd="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/inter_semibold"
+                android:text="All Details"
+                android:textColor="@color/active2"
+                android:textSize="20dp" />
+
+            <View
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="-5dp"
+                android:background="@drawable/baseline_keyboard_arrow_right_24"
+                android:backgroundTint="@color/active2" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/weather_layout_bg"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="12dp"
+        android:scaleY="-1"
+        android:background="@drawable/city_widget_background"
+        android:visibility="visible"/>
+
+    <RelativeLayout
+        android:id="@+id/weather_layout"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/city_widget_background">
+
+        <ImageView
+            android:id="@+id/img_city_condition"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-5dp"
+            android:src="@drawable/icon_50d" />
+
+        <TextView
+            android:id="@+id/txt_city_condition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/img_city_condition"
+            android:layout_alignStart="@+id/img_city_condition"
+            android:layout_alignEnd="@+id/img_city_condition"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="-8dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="5dp"
+            android:text="loading"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/txt_city_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:paddingStart="5dp"
+            android:paddingBottom="10dp"
+            android:layout_toEndOf="@+id/img_city_condition"
+            android:layout_toRightOf="@id/img_city_condition"
+            android:text="30°C"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="100dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#92FFFFFF"
+            app:rippleColor="@color/very_light_blue"
+            app:layout_constraintBottom_toTopOf="@+id/customLocationButton"
+            app:layout_constraintEnd_toEndOf="@+id/customLocationButton"
+            app:layout_constraintStart_toStartOf="@+id/customLocationButton"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="120dp">
+
+            <ImageButton
+                android:id="@+id/mapType"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/satellite"
+                android:rotation="40"
+                android:scaleType="fitCenter"
+                android:src="@drawable/satellite" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <Button
+            android:id="@+id/rent_bicycle_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/active2"
+            android:fontFamily="@font/inter_bold"
+            android:text="Rent a Bicycle"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:cornerRadius="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/customLocationButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/circlebg"
+            android:foreground="@drawable/baseline_my_location_24"
+            android:foregroundGravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="5dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
+

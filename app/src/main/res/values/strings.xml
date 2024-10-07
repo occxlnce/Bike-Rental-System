@@ -1,0 +1,19 @@
+<resources>
+    <string name="default_web_client_id">177592057803-t9fkfdjko71s76g8gse3nopjukj5uull.apps.googleusercontent.com</string>
+    <string name="pedalcity">Banditz Ride</string>
+    <string name="welcome">Welcome to</string>
+
+    <string name="heading1">Locate</string>
+    <string name="heading2">Unlock</string>
+    <string name="heading3">Ride</string>
+    <string name="heading4">Return</string>
+
+    <string name="desc1">Look for Banditz Ride bicycle points near your location and navigate with directions towards it.</string>
+    <string name="desc2">Scan the QR code to unlock your bicycle. Pull up the stand and start your ride.</string>
+    <string name="desc3">Ride safely. Follow all the traffic rules and have an enjoyable ride.</string>
+    <string name="desc4">Tap on “End Ride” in our app and return the bicycle by parking in our Banditz Ride bicycle point.</string>
+    <string name="_8226">&amp;#8226</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

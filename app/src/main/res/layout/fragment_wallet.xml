@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".WalletFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="300dp"
+            android:layout_height="205dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="@color/active2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_bold"
+                android:letterSpacing="0.1"
+                android:text="WALLET"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:padding="2dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_marginTop="45dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:letterSpacing="0.1"
+                    android:text="Balance = "
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:padding="2dp"/>
+
+                <TextView
+                    android:id="@+id/balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:letterSpacing="0.1"
+                    android:padding="2dp"
+                    android:text="R0"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/add_money_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="85dp"
+                android:backgroundTint="@color/white"
+                android:textAllCaps="false"
+                android:text="Add Money"
+                android:textSize="15dp"
+                android:textColor="@color/active2"
+                android:textStyle="bold"
+                app:cornerRadius="12dp"
+                android:paddingHorizontal="20dp"
+                android:clickable="true"
+                android:importantForAccessibility="no"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/withdraw_money_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="140dp"
+                android:backgroundTint="@color/white"
+                android:textAllCaps="false"
+                android:text="Withdraw Money"
+                android:textSize="15dp"
+                android:textColor="@color/active2"
+                android:textStyle="bold"
+                app:cornerRadius="12dp"
+                android:paddingHorizontal="20dp"
+                android:clickable="true"
+                android:importantForAccessibility="no"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/sd_card_view"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="@color/active2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_bold"
+                android:letterSpacing="0.08"
+                android:text="SECURITY DEPOSIT"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:padding="2dp"/>
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_marginTop="45dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:letterSpacing="0.1"
+                    android:padding="2dp"
+                    android:text="R100"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/paid_check_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="Not Paid"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:padding="2dp"/>
+
+                <ImageView
+                    android:id="@+id/paid_check_icon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/cancel" />
+
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/pay_now_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="85dp"
+                android:backgroundTint="@color/white"
+                android:textAllCaps="false"
+                android:text="Pay Now"
+                android:textSize="15dp"
+                android:textColor="@color/active2"
+                android:textStyle="bold"
+                app:cornerRadius="12dp"
+                android:paddingHorizontal="20dp"
+                android:visibility="visible"
+                android:clickable="true"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/refund_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="85dp"
+                android:backgroundTint="@color/white"
+                android:textAllCaps="false"
+                android:text="Get Refund"
+                android:textSize="15dp"
+                android:textColor="@color/active2"
+                android:textStyle="bold"
+                app:cornerRadius="12dp"
+                android:paddingHorizontal="20dp"
+                android:visibility="invisible"
+                android:clickable="true"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/transactions_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/active2"
+            android:textAllCaps="false"
+            android:text="Show All Transactions"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:cornerRadius="18dp"
+            android:paddingHorizontal="20dp"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+    <!-- LinearLayout for transactions -->
+    <LinearLayout
+        android:id="@+id/transactions_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@drawable/gradientbg2"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <ImageButton
+                android:id="@+id/back_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:foreground="@drawable/baseline_arrow_back_24"
+                android:foregroundTint="@color/active2"
+                android:background="@android:color/transparent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/back_btn"
+                android:layout_marginStart="10dp"
+                android:layout_centerVertical="true"
+                android:letterSpacing="0.05"
+                android:fontFamily="@font/inter_semibold"
+                android:text="TRANSACTIONS"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/active2"/>
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/transactions_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="565dp"
+            android:layout_marginTop="20dp"
+            android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/transactions_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    </LinearLayout>
+
+        </ScrollView>
+        <!-- Transaction items will be dynamically added here -->
+
+    </LinearLayout>
+
+</FrameLayout>

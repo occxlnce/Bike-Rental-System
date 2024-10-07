@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="210dp"
+    android:layout_height="220dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:elevation="10dp"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:text="Banditz Ride Bicycle Point"
+        android:textColor="@color/btn_color"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:elevation="10dp"
+        app:cardCornerRadius="5dp"
+        app:strokeWidth="0.1dp"
+        app:strokeColor="#D4000000"
+        android:backgroundTint="@color/white">
+
+        <ImageView
+            android:id="@+id/info_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/bicycle"
+            android:backgroundTint="@color/white"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <TextView
+        android:id="@+id/info_window_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Info Title"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="5dp"
+        android:paddingTop="2dp"/>
+
+    <TextView
+        android:id="@+id/info_window_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:textSize="10dp"
+        android:textColor="#292929"
+        android:layout_marginLeft="6dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/get_directions"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/active2"
+            android:text="Get Directions"
+            android:fontFamily="@font/inter_bold"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            app:cornerRadius="8dp"
+            android:paddingHorizontal="20dp"
+            android:clickable="true"/>
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:background="@drawable/directions"
+            android:src="@drawable/directions"
+            android:scaleType="fitCenter"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

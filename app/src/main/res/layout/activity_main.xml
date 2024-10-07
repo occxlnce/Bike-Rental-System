@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <!--     MTB Bicycle Card Info      -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/triban"
+        android:layout_width="230dp"
+        android:layout_height="280dp"
+        android:layout_marginHorizontal="10dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="@color/active2"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:strokeColor="@color/active2"
+        app:strokeWidth="1.5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:paddingHorizontal="8dp"
+            android:background="@drawable/button_radius"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tribanlogo" />
+
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:letterSpacing="0.03"
+                android:text="RC100"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/bicycle_type"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="@font/inter_bold"
+            android:letterSpacing="0.03"
+            android:text="Road Bike"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <ImageButton
+            android:id="@+id/flip_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/baseline_360_rotate_24"
+            android:backgroundTint="@color/white"
+            tools:ignore="DuplicateIds" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp">
+
+            <ImageView
+                android:id="@+id/gear_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/gear" />
+
+            <TextView
+                android:id="@+id/gear_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@+id/gear_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="7 Speed Gears"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/brake_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/gear_icon"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/rim_brake"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gear_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/brake_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="Dual Pivot Caliper"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/handlebar_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/brake_icon"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/handlebar"
+                app:tint="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/brake_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/handlebar_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="Drop Handlebar"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/weight_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/handlebar_icon"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/weight" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/handlebar_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/weight_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="11 Kgs"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/frame_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/weight_icon"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/frame" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/weight_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/frame_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="Light Aluminuim"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="2dp"
+                android:src="@drawable/link_icon"
+                app:tint="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:shadowColor="@color/very_light_blue"
+                android:shadowRadius="3"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="www.decathlon.in"
+                android:textColorLink="@color/white"
+                android:textSize="12dp"
+                android:letterSpacing="0.03"/>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+    <!--     Electric Bicycle Card Info      -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/emotorad"
+        android:layout_width="230dp"
+        android:layout_height="280dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="@color/active2"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:strokeColor="@color/active2"
+        app:strokeWidth="1.5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:paddingHorizontal="8dp"
+                android:background="@drawable/button_radius"
+                android:backgroundTint="@color/white">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/emotoradlogo" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:letterSpacing="0.03"
+                android:text="EMX+"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/bicycle_type"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="@font/inter_bold"
+            android:text="MTB E-Bike"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <ImageButton
+            android:id="@+id/flip_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/baseline_360_rotate_24"
+            android:backgroundTint="@color/white"
+            tools:ignore="DuplicateIds" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp">
+
+            <ImageView
+                android:id="@+id/gear_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/gear" />
+
+            <TextView
+                android:id="@id/gear_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@+id/gear_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="21 Gears"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/brake_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/gear_text"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/brake" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/brake_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="All Disc"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/speed_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/gear_icon"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/speed"
+                app:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/speed_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gear_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/speed_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="25 Km/h"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/weight_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/gear_icon"
+                android:layout_toRightOf="@id/speed_text"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/weight" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gear_icon"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/weight_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="21 Kgs"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/battery_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/speed_icon"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/battery"
+                app:tint="@color/white"/>
+
+            <TextView
+                android:id="@+id/battery_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/speed_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/battery_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="13Ah Water-Resist Removable Battery"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/range_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/battery_text"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/range"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/battery_text"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/range_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="80 Km Range"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/motor_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@id/range_icon"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/motor"
+                app:tint="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/range_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/motor_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="250w Hub Motor"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="2dp"
+                android:src="@drawable/link_icon"
+                app:tint="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:shadowColor="@color/very_light_blue"
+                android:shadowRadius="3"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="www.emotorad.com"
+                android:textColorLink="@color/white"
+                android:textSize="12dp"
+                android:letterSpacing="0.03"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+    <!--    //Remove Alpha to remove transparent  -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/pedalcity_cargo"
+        android:layout_width="380dp"
+        android:layout_height="320dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="@color/active2"
+        app:cardCornerRadius="20dp"
+        app:strokeColor="@color/active2"
+        app:strokeWidth="1.5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="8dp"
+            android:background="@drawable/button_radius"
+            android:backgroundTint="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pedalcity_ranger_logo" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/bicycle_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="@font/inter_semibold"
+            android:letterSpacing="0.03"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="3dp"
+            android:text="MTB"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <ImageButton
+            android:id="@+id/flip_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/baseline_360_rotate_24"
+            android:backgroundTint="@color/white"
+            tools:ignore="DuplicateIds" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp">
+
+            <ImageView
+                android:id="@+id/gear_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/gear" />
+
+            <TextView
+                android:id="@+id/gear_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@+id/gear_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="Single Gear"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+
+            <ImageView
+                android:id="@+id/speed_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/gear_icon"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/speed"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gear_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/speed_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="25 Km/h Speed"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/battery_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/speed_icon"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/battery"
+                app:tint="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/speed_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/battery_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="50 Km Range with Solar Battery"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/basket_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/battery_icon"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/basket" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/battery_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/basket_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="Basket, Carrier &amp; Phone Holder"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/lock_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/basket_icon"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/lock" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/basket_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/lock_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="Smart Lock with GPS &amp; BLE"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/weight_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="215dp"
+                android:src="@drawable/weight" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/weight_icon"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="20 Kgs"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/brake_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/weight_icon"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="215dp"
+                android:src="@drawable/brake" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/weight_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/brake_icon"
+                android:fontFamily="@font/inter_semibold"
+                android:letterSpacing="0.03"
+                android:text="Hub Brakes"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="180dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mail"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="215dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginBottom="340dp"
+        android:backgroundTint="#FF0000"
+        android:text="Sign Out"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/continue_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginBottom="232dp"
+        android:backgroundTint="#000"
+        android:text="Continue"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

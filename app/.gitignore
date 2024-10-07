@@ -1,0 +1,28 @@
+# Gradle files
+.gradle/
+build/
+local.properties
+
+# Android Studio files
+.idea/
+*.iml
+
+# User-specific files
+*.hprof
+*.log
+
+# Mac system files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# Java class files
+*.class
+
+# Kotlin files
+*.kotlin_metadata
+
+# Generated files
+captures/
+outputs/
