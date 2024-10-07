@@ -24,7 +24,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/default_web_client_id"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PEDALCITYAPP"
+        android:theme="@style/Theme.BANDITZRIDE"
         tools:targetApi="31">
 
 

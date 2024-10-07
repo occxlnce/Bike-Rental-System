@@ -1,0 +1,6 @@
+com.occxlnce.banditzride.test.app-core-1.5.0-0 C:\Users\Murunzi\.gradle\caches\transforms-3\4d2fb7b472bdef9ac579862f908db720\transformed\core-1.5.0\res
+com.occxlnce.banditzride.test.app-annotation-experimental-1.3.0-1 C:\Users\Murunzi\.gradle\caches\transforms-3\8c466cc0ce69ef77a9df76c9e5758353\transformed\annotation-experimental-1.3.0\res
+com.occxlnce.banditzride.test.app-androidTest-2 C:\Users\Murunzi\OneDrive\Documents\occxlnce\Apps\Bicycle-Rental-App\Bicycle-Rental-App\app\build\generated\res\resValues\androidTest\debug
+com.occxlnce.banditzride.test.app-mergeDebugAndroidTestResources-3 C:\Users\Murunzi\OneDrive\Documents\occxlnce\Apps\Bicycle-Rental-App\Bicycle-Rental-App\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.occxlnce.banditzride.test.app-mergeDebugAndroidTestResources-4 C:\Users\Murunzi\OneDrive\Documents\occxlnce\Apps\Bicycle-Rental-App\Bicycle-Rental-App\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.occxlnce.banditzride.test.app-merged_res-5 C:\Users\Murunzi\OneDrive\Documents\occxlnce\Apps\Bicycle-Rental-App\Bicycle-Rental-App\app\build\intermediates\merged_res\debugAndroidTest

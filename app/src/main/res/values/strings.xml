@@ -1,6 +1,6 @@
 <resources>
     <string name="default_web_client_id">177592057803-t9fkfdjko71s76g8gse3nopjukj5uull.apps.googleusercontent.com</string>
-    <string name="pedalcity">Banditz Ride</string>
+    <string name="banditzride">Banditz Ride</string>
     <string name="welcome">Welcome to</string>
 
     <string name="heading1">Locate</string>

@@ -1,0 +1,730 @@
+[
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_bikelogo1.jpg.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/bikelogo1.jpg"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_lock_open_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_lock_open_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_tick.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/tick.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/raw_bicycle.json.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/raw/bicycle.json"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_homeicon.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/homeicon.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_directions.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/directions.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_onboarding3.jpg.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/onboarding3.jpg"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_bikelogo.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/bikelogo.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_gradientbg.jpg.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/gradientbg.jpg"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_coil.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/coil.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_fragment_ride_summary.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/fragment_ride_summary.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_rounded_corners.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/rounded_corners.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_basket.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/basket.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_lock.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/lock.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_fragment_home.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_radius.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/radius.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_link_icon.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/link_icon.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/font_inter_bold.ttf.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/font/inter_bold.ttf"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_onboarding4.jpg.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/onboarding4.jpg"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_activity_signup.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_bicycle_number_item.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/bicycle_number_item.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/raw_unlock_text_animation.lottie.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/raw/unlock_text_animation.lottie"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/raw_splash.json.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/raw/splash.json"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_onboarding2.jpg.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/onboarding2.jpg"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_fragment_help.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/fragment_help.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_my_location_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_my_location_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_outline_help_center_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/outline_help_center_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_info_outline_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_info_outline_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_firefox.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/firefox.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_pedalcity_cargo_logo.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/pedalcity_cargo_logo.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_rounded_corners_blue.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/rounded_corners_blue.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_rounded_corners_red.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/rounded_corners_red.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_cradiac_xc900_24.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/cradiac_xc900_24.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_activity_onboarding.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_handlebar.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/handlebar.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_ninetyone_madrid.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/ninetyone_madrid.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_activity_user_details.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/activity_user_details.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_tribanlogo.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/tribanlogo.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_rounded_bottom_sheet.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/rounded_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_button_radius.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/button_radius.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_hero_lectro.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/hero_lectro.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_battery.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/battery.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_circlebg.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/circlebg.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_outline_home_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/outline_home_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_map_icon.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/map_icon.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_icon_03n.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/icon_03n.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_triban_rc100.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/triban_rc100.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_glogo.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/glogo.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_icon_13n.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/icon_13n.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_assistant_navigation_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/assistant_navigation_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_end_ride_dialog.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/end_ride_dialog.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_icon_04n.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/icon_04n.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_unlock_icon.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/unlock_icon.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_outline_account_circle_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/outline_account_circle_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_add_money_popup.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/add_money_popup.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_icon_50n.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/icon_50n.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_360_rotate_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_360_rotate_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_icon_10n.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/icon_10n.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_activity_phone.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/activity_phone.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_rim_brake.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/rim_brake.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_menu_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_menu_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_pedalcity_ranger_logo.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/pedalcity_ranger_logo.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_fragment_wallet.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/fragment_wallet.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_biketeam3.webp.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/biketeam3.webp"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/xml_data_extraction_rules.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_icon_01n.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/icon_01n.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_phonebg.jpg.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/phonebg.jpg"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_icon_11n.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/icon_11n.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_activity_qr_scanner.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/activity_qr_scanner.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/raw_unlock_animation.lottie.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/raw/unlock_animation.lottie"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_activity_main.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_speed.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/speed.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_brake.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/brake.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_phone_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_phone_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_pedalcity_eco_logo.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/pedalcity_eco_logo.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_cancel.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/cancel.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_biketeam2.webp.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/biketeam2.webp"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_thumb_down_alt_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_thumb_down_alt_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_pedalcity_ranger.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/pedalcity_ranger.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_withdraw_money_popup.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/withdraw_money_popup.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_icon_50d.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/icon_50d.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_flash_off_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_flash_off_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_activity_home.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_icon_02n.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/icon_02n.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/font_inter_medium.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/font/inter_medium.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_fragment_selected_bicycle.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/fragment_selected_bicycle.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_noprofile.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/noprofile.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_hero_lectro_logo.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/hero_lectro_logo.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_fork.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/fork.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_reconfirm_bicycle_number.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/reconfirm_bicycle_number.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_icon_10d.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/icon_10d.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_arrow_back_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_cradiaclogo.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/cradiaclogo.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_pedalcity_cargo.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/pedalcity_cargo.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_keyboard_arrow_right_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_keyboard_arrow_right_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_round_bottom_nav.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/round_bottom_nav.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_icon_13d.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/icon_13d.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_email_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_email_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_emotoradlogo.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/emotoradlogo.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_satellite.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/satellite.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_icon_03d.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/icon_03d.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_activity_google_signin.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/activity_google_signin.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_gmap_logo.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/gmap_logo.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_outline_account_balance_wallet_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/outline_account_balance_wallet_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_bicycle.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/bicycle.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_firefox_viper.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/firefox_viper.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_fragment_ongoing_ride.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/fragment_ongoing_ride.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_account_circle_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_account_circle_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/color_item_color_selector.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/color/item_color_selector.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_date_range_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_date_range_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_fragment_bottom_sheet.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/fragment_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_emotorad_emx.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/emotorad_emx.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_qr_code_scanner_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_qr_code_scanner_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_weight.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/weight.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/font_inter.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/font/inter.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_activity_testing.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/activity_testing.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_phone_auth.jpg.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/phone_auth.jpg"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_edit_text_bg.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/edit_text_bg.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_transaction_item.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/transaction_item.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_motor.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/motor.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_frontgate.jpg.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/frontgate.jpg"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_pedalcity_eco_no_basket.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/pedalcity_eco_no_basket.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_pause_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_pause_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_icon_04d.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/icon_04d.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_fragment_choose_bicycle.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/fragment_choose_bicycle.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_backgate.jpeg.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/backgate.jpeg"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/xml_backup_rules.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_bicycle_number_popup.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/bicycle_number_popup.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_onboarding1.jpg.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/onboarding1.jpg"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_activity_splash_bicycle.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/activity_splash_bicycle.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_biketeam1.jpg.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/biketeam1.jpg"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_twotone_edit_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/twotone_edit_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_exit_app_dialog.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/exit_app_dialog.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_city_widget_background.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/city_widget_background.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_fragment_unlock_animation.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/fragment_unlock_animation.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_flash_on_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_flash_on_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_normalmap.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/normalmap.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_marker.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/marker.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_pedalcity_logo.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/pedalcity_logo.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_headlight_icon.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/headlight_icon.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_activity_otp.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/activity_otp.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_gear.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/gear.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_frame.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/frame.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_gradientbg2.jpg.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/gradientbg2.jpg"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_icon_02d.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/icon_02d.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/menu_bottom_navigation_menu.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/menu/bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_range.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/range.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_otp_verification.jpg.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/otp_verification.jpg"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_custom_info_window.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/custom_info_window.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_replace_icon.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/replace_icon.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_pedalcity_eco.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/pedalcity_eco.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_edit_profile_popup.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/edit_profile_popup.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_button_with_progress.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/button_with_progress.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_ninety_one_logo.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/ninety_one_logo.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_thumb_up_alt_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_thumb_up_alt_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_icon_01d.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/icon_01d.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_baseline_123_24.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/baseline_123_24.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_activity_splash.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_fragment_account.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/fragment_account.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_icon_11d.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/icon_11d.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/layout_slider_layout.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/layout/slider_layout.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/font_inter_semibold.xml.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/font/inter_semibold.xml"
+    },
+    {
+        "merged": "com.occxlnce.banditzride.app-merged_res-46:/drawable_bikelogo2.jpg.flat",
+        "source": "com.occxlnce.banditzride.app-main-48:/drawable/bikelogo2.jpg"
+    }
+]

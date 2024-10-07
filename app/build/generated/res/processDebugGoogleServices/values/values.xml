@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">177592057803-repfpobkkbncib3quqjvh4se5g91r4jk.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">177592057803</string>
+    <string name="google_api_key" translatable="false">AIzaSyAwaCdYLv9IIP_VReZ8iUh9bO8kyFf1pF0</string>
+    <string name="google_app_id" translatable="false">1:177592057803:android:bc3be9ddeee44f961e004e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAwaCdYLv9IIP_VReZ8iUh9bO8kyFf1pF0</string>
+    <string name="google_storage_bucket" translatable="false">bikerentalapp-dfe18.appspot.com</string>
+    <string name="project_id" translatable="false">bikerentalapp-dfe18</string>
+</resources>

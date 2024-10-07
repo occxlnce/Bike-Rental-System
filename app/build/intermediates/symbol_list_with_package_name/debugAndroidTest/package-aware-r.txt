@@ -1,0 +1,3 @@
+com.occxlnce.banditzride.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
