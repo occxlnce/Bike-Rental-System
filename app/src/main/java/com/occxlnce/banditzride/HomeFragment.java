@@ -128,7 +128,7 @@ public class HomeFragment extends Fragment implements OnMyLocationButtonClickLis
     private ImageView weatherIcon;
     private TextView cityCondition, cityTemperature;
     private static final String WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather";
-    private static final String API_KEY = "0e947f0c8366ca3895aeb0a0f3ba4933";
+    private static final String API_KEY = "your own api key";
     private static final String CITY_NAME = "Pretoria";
 
     //Ongoing Ride Widget Layout
