@@ -26,12 +26,12 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/occxlnce/Bicycle-Rental-App.git
+   git clone https://github.com/occxlnce/Bike-Rental-System.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd Bicycle-Rental-App
+   cd Bike-Rental-System
    ```
 
 3. Open the project in Android Studio.
